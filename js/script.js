@@ -45,3 +45,21 @@ function initAnimaScroll() {
 }
 
 initAnimaScroll();
+
+function initMenuMobile() {
+    const btn = document.querySelector('.btn-mobile');
+
+    function handleClick(event) {
+        event.preventDefault();
+        const menu = document.querySelector('.menu');
+        const callToAction = document.querySelector('#call-to-action');
+
+        btn.classList.toggle('mobile');
+        menu.classList.toggle('mobile');
+        callToAction.classList.toggle('mobile');
+    }
+
+    btn.addEventListener('click', handleClick);
+}
+
+initMenuMobile();
