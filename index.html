@@ -14,8 +14,8 @@
     <!-- Menu -->
     <header class="header">
         <div class="menu-container">
-            <a href="#" class="logo"><img src="./svg/logo.svg" alt="Logotipo"></a>
-            <nav class="menu">
+            <a href="#" class="logo" data-anima="left"><img src="./svg/logo.svg" alt="Logotipo"></a>
+            <nav class="menu" data-anima="left">
                 <ul>
                     <li><a href="#" class="ativo">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -25,7 +25,7 @@
                     <li><a href="#">Blog</a></li>
                 </ul>
             </nav>
-            <div class="call-to-action">
+            <div class="call-to-action" data-anima="right">
                 <form action="#">
                     <input type="text" placeholder="Search Here">
                     <img src="/svg/search.svg" alt="Busca" class="busca">
@@ -38,9 +38,10 @@
     <!-- Introdução -->
     <section class="intro">
         <div class="intro-container">
-            <h1>We Create Simple Solution<br>
-                <span>For Your Complex Task</span></h1>
-            <p>Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec elaboraret </p>
+            <h1 data-anima="left">We Create Simple Solution<br>
+                <span data-anima="writer">For Your Complex Task</span></h1>
+            <p data-anima="up" class="ativo">Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec elaboraret
+            </p>
             <div class="btns">
                 <a href="#" class="btn-primario">Our Works</a>
                 <a href="#" class="btn-secundario">Know More</a>
@@ -52,7 +53,7 @@
     <!-- Main -->
     <main class="main">
         <section class="about">
-            <div class="about-item">
+            <div class="about-item" data-anima="left">
                 <h2>The Process
                     <br><span>About Our Work</span></h2>
                 <p>Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec elaboraret interpretaris, sed diceret
@@ -60,16 +61,16 @@
                 <p>vel cu paulo doctus vidisse. Iudico dicant nostrum nec an, in </p>
                 <a href="#" class="btn-primario">Know More</a>
             </div>
-            <div class="about-item">
+            <div class="about-item" data-anima="right">
                 <img src="./img/sobre-1.png" alt="Sobre nós">
             </div>
         </section>
         <section class="about">
-            <div class="about-item">
+            <div class="about-item" data-anima="right">
                 <img src="./img/sobre-2.png" alt="Sobre nós">
             </div>
 
-            <div class="about-item">
+            <div class="about-item" data-anima="left">
                 <h2>We are here to
                     <br><span>always help you</span></h2>
                 <p>Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, a elaboraret interpretaris, sed diceret
@@ -82,8 +83,8 @@
     <!-- Formulario -->
     <section class="formulario">
         <div class="formulario-container">
-            <h2>Facing Problem? <br><span>Lets Get In Touch Now</span> </h2>
-            <form action="#">
+            <h2>Facing Problem? <br><span data-anima="writer">Lets Get In Touch Now</span> </h2>
+            <form action="#" data-anima="up">
                 <div class="name-form">
                     <div class="name-item">
                         <label for="FirstName">First Name</label>
@@ -106,8 +107,8 @@
 
                 <button class="btn-enviar">Our Works</button>
             </form>
-            <img src="./img/form-1.png" alt="" class="img-form-1">
-            <div class="img-right">
+            <img src="./img/form-1.png" alt="" class="img-form-1" data-anima="left">
+            <div class="img-right" data-anima="right">
                 <img src="./img/form-2.png" alt="" class="img-form-2">
                 <img src="./img/form-3.png" alt="" class="img-form-3">
             </div>
@@ -184,6 +185,8 @@
 
         </div>
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
